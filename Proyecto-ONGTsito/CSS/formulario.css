@@ -1,0 +1,242 @@
+/* === Estilos para formularios y botones relacionados === */
+
+/* Formulario de Registro */
+.formulario {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffffcc;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(76, 175, 80, 0.2);
+}
+
+.formulario1 {
+  max-width: 800px; /* Antes: 600px */
+  width: 90%; /* Hace que sea responsivo */
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.formulario h2 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.formulario label,
+form label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2e4d3c;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="password"],
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="password"],
+form input[type="date"],
+form input[type="time"],
+form select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 2px solid #a5d6a7;
+    border-radius: 8px;
+    background-color: #f1fdf3;
+    font-size: 1rem;
+    color: #2e4d3c;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formulario input:focus,
+form input:focus,
+form select:focus {
+    border-color: #66bb6a;
+    box-shadow: 0 0 6px rgba(102, 187, 106, 0.5);
+    outline: none;
+}
+
+/* Opciones de género (radio buttons o similares) */
+.genero-opciones {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0.5rem 0;
+}
+
+.genero-opciones label {
+    font-weight: normal;
+    color: #2e4d3c;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+/* Botón de envío en formulario */
+.formulario button,
+.btn-iniciar {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover,
+.btn-iniciar:hover {
+    background-color: #388e3c;
+}
+
+/* Botón estilo enlace para registrar */
+.btn-registrar {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.6rem 1.2rem;
+    background-color: #81c784;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: fit-content;
+}
+
+/* Botones adicionales */
+.btn-editar,
+.btn-crearEvento {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.6rem 1.2rem;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: fit-content;
+}
+
+
+
+/* === Contenedores de contenido === */
+.contenedor {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contenedor-formulario {
+    background: linear-gradient(to bottom right, #e0f2f1, #c8e6c9);
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contenido {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: 2px solid #252424;
+    width: 300px;
+    flex: none;
+    margin: 0 auto;
+}
+
+.contenido h2 {
+    color: #2e7d32;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.contenido p {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #4e684f;
+    font-size: 0.95rem;
+}
+
+/*Formulario para contribuciones*/
+
+.formulario {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-row input,
+.form-row select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  border-color: #2e9086;
+  outline: none;
+}
+
+.formulario button {
+  background-color: #2e9086;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #22776e;
+}
+
+
+
+
+

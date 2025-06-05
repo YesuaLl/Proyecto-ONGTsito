@@ -1,0 +1,31 @@
+.btn-aceptar {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.btn-aceptar:hover {
+    background-color: #006400; /* verde oscuro */
+}
+
+.btn-cancelar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.btn-cancelar:hover {
+    background-color: #8B0000; /* rojo oscuro */
+}

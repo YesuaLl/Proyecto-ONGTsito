@@ -35,9 +35,9 @@ Antes de comenzar, asegúrate de tener instalado:
 1. **Clona el repositorio**
 
    ```bash
-   git clone https://github.com/usuario/Proyecto-ONGTsito.git
+   git clone https://github.com/YesuaLl/Proyecto-ONGTsito.git
    ```
-   [Repositorio Aqui](https://github.com/usuario/Proyecto-ONGTsito.git)
+   [Repositorio Aqui](https://github.com/YesuaLl/Proyecto-ONGTsito.git)
 
    O descarga el repositorio como archivo ZIP y extráelo.
 
